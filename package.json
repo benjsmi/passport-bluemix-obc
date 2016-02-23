@@ -1,6 +1,6 @@
 {
   "name": "passport-bluemix-obc",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "BlueMix OAuth 2.0 authentication strategy for Passport for Blockchain Service.",
   "keywords": [
     "passport",
@@ -30,7 +30,8 @@
   "main": "./lib",
   "dependencies": {
     "passport-oauth2-bluemix": "1.x.x",
-    "passport-strategy": "*"
+    "passport-strategy": "*",
+    "pkginfo": "*"
   },
   "engines": {
     "node": ">= 0.4.0"
