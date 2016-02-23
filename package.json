@@ -1,7 +1,7 @@
 {
-  "name": "passport-bluemix",
-  "version": "0.1.2b",
-  "description": "BlueMix OAuth 2.0 authentication strategy for Passport.",
+  "name": "passport-bluemix-obc",
+  "version": "0.0.1",
+  "description": "BlueMix OAuth 2.0 authentication strategy for Passport for Blockchain Service.",
   "keywords": [
     "passport",
     "auth",
@@ -13,12 +13,13 @@
     "oauth2",
     "ibm",
     "bluemix",
-    "cloud foundry"
+    "cloud foundry",
+    "blockchain"
   ],
-  "author": "minh.hoang <hieuminh.hoang@gmail.com> (http://blog.minhhoang.de/)",
+  "author": "Ben Smith (benjsmi@us.ibm.com)",
   "repository":{
     "type": "github",
-    "url": "https://github.com/m1nhhoang/passport-bluemix"  
+    "url": "https://github.com/benjsmi/passport-bluemix-obc"  
   },
   "licenses": [
     {
@@ -31,18 +32,6 @@
     "passport-oauth2": "1.x.x",
     "passport-strategy": "*"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "chai" : "*",
-    "chai-passport-strategy": "*",
-    "express": "*",
-    "passport": "*",
-    "pkginfo":"*",
-    "connect-ensure-login": "*",
-    "cookie-parser": "*",
-    "express-session": "*",
-    "express-error-handler": "*"
-    },
   "engines": {
     "node": ">= 0.4.0"
   }
