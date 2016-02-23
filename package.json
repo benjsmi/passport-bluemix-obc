@@ -1,6 +1,6 @@
 {
   "name": "passport-bluemix-obc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "BlueMix OAuth 2.0 authentication strategy for Passport for Blockchain Service.",
   "keywords": [
     "passport",
