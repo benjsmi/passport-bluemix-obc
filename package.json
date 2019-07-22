@@ -1,6 +1,6 @@
 {
   "name": "passport-bluemix-obc",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "BlueMix OAuth 2.0 authentication strategy for Passport for Blockchain Service.",
   "keywords": [
     "passport",
@@ -19,7 +19,7 @@
   "author": "Ben Smith (benjsmi@us.ibm.com)",
   "repository":{
     "type": "github",
-    "url": "https://github.com/benjsmi/passport-bluemix-obc"  
+    "url": "https://github.com/benjsmi/passport-bluemix-obc"
   },
   "licenses": [
     {
